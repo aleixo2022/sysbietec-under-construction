@@ -1,4 +1,4 @@
- 
+import React from 'react';
 import { FaTools, FaHardHat, FaWrench } from 'react-icons/fa';
 import styles from './UnderConstruction.module.css';
 

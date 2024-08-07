@@ -45,3 +45,27 @@
   color: #2542E0; /* Usando a cor primária #2542E0 */
   margin: 20px 0;
 }
+
+/* Media queries para dispositivos móveis */
+@media (max-width: 768px) {
+  .content {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+  }
+  
+  .message {
+    font-size: 1rem;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+}
