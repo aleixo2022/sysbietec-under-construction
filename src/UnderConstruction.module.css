@@ -1,0 +1,47 @@
+/* Centraliza o container na tela */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Define a aparência do conteúdo */
+.content {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+/* Estiliza o título */
+.title {
+  font-size: 3rem;
+  color: #2542E0; /* Usando a cor primária #2542E0 */
+  margin-bottom: 20px;
+}
+
+/* Estiliza o subtítulo */
+.subtitle {
+  font-size: 2rem;
+  color: #0aabc0; /* Usando a cor primária #EFAA00 */
+  margin-bottom: 20px;
+}
+
+/* Estiliza a mensagem */
+.message {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Estiliza os ícones */
+.icon {
+  font-size: 3rem;
+  color: #2542E0; /* Usando a cor primária #2542E0 */
+  margin: 20px 0;
+}
